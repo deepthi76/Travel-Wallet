@@ -22,7 +22,7 @@ function Home() {
         heroImg={ExploreImg}
         title="Your next adventure awaits"
         buttonText="Explore More Destinations"
-        url="/Explore"
+        url="/destination"
         btnClass="show"
       />
       <Footer />
