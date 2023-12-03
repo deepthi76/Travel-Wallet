@@ -87,7 +87,7 @@ const History = () => {
                 <Accordion.Body>
                   <h4>
                     <Badge pill bg="light" text="dark">
-                      Category - {log.category}
+                      Itinerary - {log.category}
                     </Badge>
                   </h4>
                   <p>
@@ -97,7 +97,7 @@ const History = () => {
                     <strong>Destination:</strong> {log.destination}
                   </p>
                   <p>
-                    <strong>Itinerary:</strong>
+                    <strong>category:</strong>
                     <br />
                     <ReactMarkdown>{log.itinerary}</ReactMarkdown>
                   </p>

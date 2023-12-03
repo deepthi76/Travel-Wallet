@@ -33,8 +33,8 @@ const createLog = asyncHandler(async (req, res) => {
       user: req.user._id,
       title,
       destination,
-      category,
       itinerary,
+      category,
       budget,
       startDate,
       endDate,
@@ -79,8 +79,8 @@ const UpdateLog = asyncHandler(async (req, res) => {
   if (log) {
     log.title = title;
     log.destination = destination;
-    log.category = category;
     log.itinerary = itinerary;
+    log.category = category;
     log.budget = budget;
     log.startDate = startDate;
     log.endDate = endDate;

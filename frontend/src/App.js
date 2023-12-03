@@ -7,6 +7,7 @@ import History from "./Routes/History/History";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginScreen from "./Routes/Login/LoginScreen";
 import SignUpScreen from "./Routes/Signup/SignUpScreen";
+import ExpenseScreen from "./Routes/Expense/ExpenseScreen";
 import AddTrip from "./Routes/AddTrip/AddTrip";
 import SingleLog from "./Routes/AddTrip/SingleLog";
 import PopularDestinations from "./Routes/Explore/PopularDestinations";
@@ -22,7 +23,7 @@ function App() {
         <Route path="/signup" element={<SignUpScreen />} />
         <Route path="/history" element={<History />} />
         <Route path="/create" element={<AddTrip />} />
-        {/* <Route path="/expense" element={<Expense />} /> */}
+        <Route path="/expense" element={<ExpenseScreen />} /> 
         <Route exact path="/destination" element={<PopularDestinations />} />
         <Route path="/destination/:id" element={<DestinationDetailPage />} />
         <Route path="/logs/:id" element={<SingleLog />} />
